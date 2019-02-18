@@ -9,3 +9,7 @@ end
 target 'TblRelayout-Swift' do
     common_pods
 end
+
+target 'TblRelayout-SwiftTests' do
+    common_pods
+end

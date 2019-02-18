@@ -15,12 +15,26 @@
 		A88BDDF421D5D319006A5262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88BDDF221D5D319006A5262 /* LaunchScreen.storyboard */; };
 		A88BDDFD21D5D52A006A5262 /* TTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88BDDFB21D5D52A006A5262 /* TTableViewCell.swift */; };
 		A88BDDFE21D5D52A006A5262 /* TTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A88BDDFC21D5D52A006A5262 /* TTableViewCell.xib */; };
+		AC0BFA94221A989200006209 /* TblRelayout_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0BFA93221A989200006209 /* TblRelayout_SwiftTests.swift */; };
+		BF0FA87EA4B0D95031F978D7 /* Pods_TblRelayout_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EED0268B50517B874F90931 /* Pods_TblRelayout_SwiftTests.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0BFA96221A989200006209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88BDDDE21D5D317006A5262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88BDDE521D5D317006A5262;
+			remoteInfo = "TblRelayout-Swift";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		035E9447041C130FBE3EDEBD /* Pods-TblRelayout-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TblRelayout-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TblRelayout-Swift/Pods-TblRelayout-Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		17638EFF0C9A042C57C6BE98 /* Pods_TblRelayout_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TblRelayout_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EED0268B50517B874F90931 /* Pods_TblRelayout_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TblRelayout_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A355EA5563ED1E4D9A58161E /* Pods-TblRelayout-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TblRelayout-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-TblRelayout-Swift/Pods-TblRelayout-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		A65B35B6A67A55BDC13E5E7A /* Pods-TblRelayout-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TblRelayout-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TblRelayout-SwiftTests/Pods-TblRelayout-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		A88BDDE621D5D317006A5262 /* TblRelayout-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TblRelayout-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88BDDE921D5D317006A5262 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A88BDDEB21D5D317006A5262 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -30,6 +44,10 @@
 		A88BDDF521D5D319006A5262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A88BDDFB21D5D52A006A5262 /* TTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTableViewCell.swift; sourceTree = "<group>"; };
 		A88BDDFC21D5D52A006A5262 /* TTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTableViewCell.xib; sourceTree = "<group>"; };
+		AC0BFA91221A989200006209 /* TblRelayout-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TblRelayout-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0BFA93221A989200006209 /* TblRelayout_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TblRelayout_SwiftTests.swift; sourceTree = "<group>"; };
+		AC0BFA95221A989200006209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01B9C9889C93B58AEE084D9 /* Pods-TblRelayout-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TblRelayout-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TblRelayout-SwiftTests/Pods-TblRelayout-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC0BFA8E221A989200006209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0FA87EA4B0D95031F978D7 /* Pods_TblRelayout_SwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +75,8 @@
 			children = (
 				035E9447041C130FBE3EDEBD /* Pods-TblRelayout-Swift.debug.xcconfig */,
 				A355EA5563ED1E4D9A58161E /* Pods-TblRelayout-Swift.release.xcconfig */,
+				B01B9C9889C93B58AEE084D9 /* Pods-TblRelayout-SwiftTests.debug.xcconfig */,
+				A65B35B6A67A55BDC13E5E7A /* Pods-TblRelayout-SwiftTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -57,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				A88BDDE821D5D317006A5262 /* TblRelayout-Swift */,
+				AC0BFA92221A989200006209 /* TblRelayout-SwiftTests */,
 				A88BDDE721D5D317006A5262 /* Products */,
 				62285D84415D43650F040E33 /* Pods */,
 				EA3E2E7AD729074EE2E3F7A1 /* Frameworks */,
@@ -67,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				A88BDDE621D5D317006A5262 /* TblRelayout-Swift.app */,
+				AC0BFA91221A989200006209 /* TblRelayout-SwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,10 +116,20 @@
 			path = "TblRelayout-Swift";
 			sourceTree = "<group>";
 		};
+		AC0BFA92221A989200006209 /* TblRelayout-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0BFA93221A989200006209 /* TblRelayout_SwiftTests.swift */,
+				AC0BFA95221A989200006209 /* Info.plist */,
+			);
+			path = "TblRelayout-SwiftTests";
+			sourceTree = "<group>";
+		};
 		EA3E2E7AD729074EE2E3F7A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				17638EFF0C9A042C57C6BE98 /* Pods_TblRelayout_Swift.framework */,
+				7EED0268B50517B874F90931 /* Pods_TblRelayout_SwiftTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,18 +156,42 @@
 			productReference = A88BDDE621D5D317006A5262 /* TblRelayout-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		AC0BFA90221A989200006209 /* TblRelayout-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0BFA9A221A989200006209 /* Build configuration list for PBXNativeTarget "TblRelayout-SwiftTests" */;
+			buildPhases = (
+				D6CE48525181CD5738932AC4 /* [CP] Check Pods Manifest.lock */,
+				AC0BFA8D221A989200006209 /* Sources */,
+				AC0BFA8E221A989200006209 /* Frameworks */,
+				AC0BFA8F221A989200006209 /* Resources */,
+				01E2E4A7BDD4F44531809AB9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0BFA97221A989200006209 /* PBXTargetDependency */,
+			);
+			name = "TblRelayout-SwiftTests";
+			productName = "TblRelayout-SwiftTests";
+			productReference = AC0BFA91221A989200006209 /* TblRelayout-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A88BDDDE21D5D317006A5262 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
+				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Cindy;
 				TargetAttributes = {
 					A88BDDE521D5D317006A5262 = {
 						CreatedOnToolsVersion = 10.0;
+					};
+					AC0BFA90221A989200006209 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A88BDDE521D5D317006A5262;
 					};
 				};
 			};
@@ -145,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				A88BDDE521D5D317006A5262 /* TblRelayout-Swift */,
+				AC0BFA90221A989200006209 /* TblRelayout-SwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -161,9 +226,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC0BFA8F221A989200006209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		01E2E4A7BDD4F44531809AB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TblRelayout-SwiftTests/Pods-TblRelayout-SwiftTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TblRelayout-SwiftTests/Pods-TblRelayout-SwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4A8691933CF295F838FF20E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,7 +282,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-TblRelayout-Swift/Pods-TblRelayout-Swift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TblRelayout-Swift/Pods-TblRelayout-Swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -197,7 +291,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TblRelayout-Swift/Pods-TblRelayout-Swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TblRelayout-Swift/Pods-TblRelayout-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6CE48525181CD5738932AC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TblRelayout-SwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -213,7 +329,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AC0BFA8D221A989200006209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0BFA94221A989200006209 /* TblRelayout_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0BFA97221A989200006209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88BDDE521D5D317006A5262 /* TblRelayout-Swift */;
+			targetProxy = AC0BFA96221A989200006209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A88BDDED21D5D317006A5262 /* Main.storyboard */ = {
@@ -393,6 +525,50 @@
 			};
 			name = Release;
 		};
+		AC0BFA98221A989200006209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01B9C9889C93B58AEE084D9 /* Pods-TblRelayout-SwiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEEK5ZHF5F;
+				INFOPLIST_FILE = "TblRelayout-SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appledaily.TblRelayout-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TblRelayout-Swift.app/TblRelayout-Swift";
+			};
+			name = Debug;
+		};
+		AC0BFA99221A989200006209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65B35B6A67A55BDC13E5E7A /* Pods-TblRelayout-SwiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NEEK5ZHF5F;
+				INFOPLIST_FILE = "TblRelayout-SwiftTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appledaily.TblRelayout-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TblRelayout-Swift.app/TblRelayout-Swift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -410,6 +586,15 @@
 			buildConfigurations = (
 				A88BDDF921D5D319006A5262 /* Debug */,
 				A88BDDFA21D5D319006A5262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0BFA9A221A989200006209 /* Build configuration list for PBXNativeTarget "TblRelayout-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0BFA98221A989200006209 /* Debug */,
+				AC0BFA99221A989200006209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
